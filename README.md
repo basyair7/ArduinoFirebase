@@ -9,7 +9,7 @@ Spesifikasi :
         
 Important (for windows): 
        
-        > install visual studio, select Visual Studio Community select "Desktop devlopment with C++"
+       > install visual studio, select Visual Studio Community select "Desktop devlopment with C++"
 	> Select MSVC C++ x64/x84 build tools, Windows SDK v10.0.19042, C++ profiling tools, C++ CMake tools for Windows, C++ ATL for latest, C++ AddressSanitizer 
 	> Restart PC
 
@@ -46,6 +46,6 @@ solved :
  > 3. rename folder 'crypto' to 'Crypto'
 
 
-#Powered by Basyair7
+Powered by Basyair7
 
-#Project@2021
+Project@2021
