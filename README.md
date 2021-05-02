@@ -9,9 +9,9 @@ Spesifikasi :
         
 Important (for windows): 
        
-       > install visual studio, select Visual Studio Community select "Desktop devlopment with C++"
-			 > Select MSVC C++ x64/x84 build tools, Windows SDK v10.0.19042, C++ profiling tools, C++ CMake tools for Windows, C++ ATL for latest, C++ AddressSanitizer 
-			 > Restart PC
+        > install visual studio, select Visual Studio Community select "Desktop devlopment with C++"
+	> Select MSVC C++ x64/x84 build tools, Windows SDK v10.0.19042, C++ profiling tools, C++ CMake tools for Windows, C++ ATL for latest, C++ AddressSanitizer 
+	> Restart PC
 
 https://visualstudio.microsoft.com/downloads/ (5gb)
 
@@ -38,9 +38,12 @@ https://visualstudio.microsoft.com/downloads/ (5gb)
 
 *for windows : 
 problem Crypto
+
 solved : 
-1. go c:\Users\"name user"\AppData\Local\Programs\Python\Python38\Lib\site-packages
-	 2. rename folder 'crypto' to 'Crypto'
+ 
+ > 1. go in run(win+R) 
+ > 2. paste c:\Users\"name user"\AppData\Local\Programs\Python\Python38\Lib\site-packages -> name user windows (ex: c:\Users\basyair7\)
+ > 3. rename folder 'crypto' to 'Crypto'
 
 
 Powered by Basyair7
