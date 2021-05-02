@@ -28,3 +28,7 @@ https://visualstudio.microsoft.com/downloads/ (5gb)
 *for windows : problem Crypto
 solved : 1. go c:\Users\"name user"\AppData\Local\Programs\Python\Python38\Lib\site-packages
 	 2. rename folder 'crypto' to 'Crypto'
+
+
+Powered by Basyair7
+Project@2021
