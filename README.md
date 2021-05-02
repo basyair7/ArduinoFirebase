@@ -15,14 +15,23 @@ https://visualstudio.microsoft.com/downloads/ (5gb)
 
 ======== Install Firebase Database =========
 ~$ python -m pip install gcloud
+
 ~$ python -m pip install sseclient
+
 ~$ python -m pip install pycrypto
+
 ~$ python -m pip install pycryptodome -> if pycrypto error
+
 ~$ python -m pip install firebase-admin
+
 ~$ python -m pip install firebase
+
 ~$ python -m pip install pyrebase
+
 ~$ python -m pip install pyserial
+
 ~$ python -m pip install serial
+
 ~$ python -m pip install datetime
 
 *for windows : problem Crypto
