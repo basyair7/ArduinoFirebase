@@ -16,6 +16,7 @@ Important (for windows):
 https://visualstudio.microsoft.com/downloads/ (5gb)
 
 ======== Install Firebase Database =========
+
 ~$ python -m pip install gcloud
 
 ~$ python -m pip install sseclient
