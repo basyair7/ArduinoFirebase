@@ -18,7 +18,7 @@ db = firebase.database()
 # Push data
 data = {
     "Nama": "Fathul Basyair", 
-    "Nim": "1904105010004",
+    "Nim": "",
     "Fakultas": "Teknik",
     "Jurusan": "Teknik Elektro dan Komputer",
     "Prodi": "Teknik Elektro",
