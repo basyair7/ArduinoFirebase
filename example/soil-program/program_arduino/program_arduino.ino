@@ -35,7 +35,8 @@ void loop(){
   Serial.println();
   
   // Memanggil program relay
-  relay_1(relay);
+  relay_bord(relay);
+  //relay_proteus(relay);
   
   delayMicroseconds(500);
 }
