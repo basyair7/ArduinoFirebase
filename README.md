@@ -13,7 +13,7 @@ Important (for windows):
 	> Select MSVC C++ x64/x84 build tools, Windows SDK v10.0.19042, C++ profiling tools, C++ CMake tools for Windows, C++ ATL for latest, C++ AddressSanitizer 
 	> Restart PC
 
-https://visualstudio.microsoft.com/downloads/ (5gb)
+https://visualstudio.microsoft.com/downloads/ (3gb)
 
 ======== Install Firebase Database =========
 
