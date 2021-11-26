@@ -1,24 +1,33 @@
-// membuat fungsi program relay untuk proteus
-void relay_proteus(int pin){
-  int perintah = Serial.read();
-  
-  if(perintah == '1'){ // Jika perintah relay hidup
-    digitalWrite(pin, HIGH);
+int relay_pin(int pin){
+  //konfigurasi/set pin yang bekerja pada posisi in atau out
+  pinMode(pin, OUTPUT);
+  // kembalikan nilai pin
+  return(pin);
+}
+
+void relay_1(int pin){
+  // Program relay 
+  // membaca aksi dari program python
+  int aksi = Serial.read();
+
+  if(aksi == '1'){
+    digitalWrite(pin, LOW); // saklar hidup
   }
-  else if(perintah == '0'){
-    digitalWrite(pin, LOW);
+  else if(aksi == '0'){
+    digitalWrite(pin, HIGH); //saklar mati
   }
 }
 
-// Membuat fungsi program relay untuk bord arduino asli
-void relay_bord(int pin){
-  int perintah = Serial.read();
-  
-  if(perintah == '1'){ // Jika perintah relay hidup
-    digitalWrite(pin, LOW);
+void relay_2(int pin){
+  // Program relay for proteus
+  // membaca aksi dari program python
+  int aksi = Serial.read();
+
+  if(aksi == '1'){
+    digitalWrite(pin, HIGH); //saklar hidup
+  }
+  else if(aksi == '0'){
+    digitalWrite(pin, LOW); //saklar mati
   }
   
-  else(perintah == '0'){ // Jika perintah relay mati
-    digitalWrite(pin, HIGH);
-  }
 }
