@@ -10,14 +10,14 @@ usb_port = "COM4"
 
 # Konfigurasi Alamat Firebase Database
 firebaseConfig = {
-    "apiKey": "AIzaSyCC9E5L0365-sWBNZ4JAtgsitFSJuEkCH8",
-    "authDomain": "kroeng-a879b.firebaseapp.com",
-    "databaseURL": "https://kroeng-a879b-default-rtdb.firebaseio.com",
-    "projectId": "kroeng-a879b",
-    "storageBucket": "kroeng-a879b.appspot.com",
-    "messagingSenderId": "1073718373043",
-    "appId": "1:1073718373043:web:1104d5c184e541a1949ec6",
-    "measurementId": "G-YFHZQHXDCN"
+    "apiKey": "",
+    "authDomain": "",
+    "databaseURL": "",
+    "projectId": "",
+    "storageBucket": "",
+    "messagingSenderId": "",
+    "appId": "",
+    "measurementId": ""
 };
 
 # Clear terminal
