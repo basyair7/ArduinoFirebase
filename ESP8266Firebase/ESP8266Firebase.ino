@@ -9,10 +9,10 @@
 #define lv_kelembaban_4 50
 
 #define D7 (13)
-#define WIFI_SSID "@wifi07.id"
-#define WIFI_PASSWORD "87654321"
-#define FIREBASE_HOST "awp-db-default-rtdb.firebaseio.com"
-#define FIREBASE_AUTH "s4NukWOoYfjAMsuikEci9ShveUiWltOGsRpOGEx1"
+#define WIFI_SSID ""
+#define WIFI_PASSWORD ""
+#define FIREBASE_HOST ""
+#define FIREBASE_AUTH ""
 
 
 FirebaseData firebaseData; //firebase function
@@ -88,15 +88,15 @@ void loop() {
   }
   
   // Push data in database
-  Firebase.setString(firebaseData, path_sensor + "/kelembaban_1", getdata_1);
+  Firebase.setString(firebaseData, path_sensor + F("/kelembaban_1"), getdata_1);
   delay(5);
-  Firebase.setString(firebaseData, path_sensor + "/kelembaban_2", getdata_2);
+  Firebase.setString(firebaseData, path_sensor + F("/kelembaban_2"), getdata_2);
   delay(5);
-  Firebase.setString(firebaseData, path_sensor + "/kelembaban_3", getdata_3);
+  Firebase.setString(firebaseData, path_sensor + F("/kelembaban_3"), getdata_3);
   delay(5);
-  Firebase.setString(firebaseData, path_sensor + "/kelembaban_4", getdata_4);
+  Firebase.setString(firebaseData, path_sensor + F("/kelembaban_4"), getdata_4);
   delay(5);
-  Firebase.setString(firebaseData, path_sensor + "/curah_hujan", getdata_5);
+  Firebase.setString(firebaseData, path_sensor + F("/curah_hujan"), getdata_5);
   delay(5);
 
   if(Firebase.get(firebaseData, path_relay_auto)) {
@@ -128,10 +128,10 @@ void loop() {
 }
 
 void set_data_sensor() {
-  Firebase.setString(firebaseData, path_sensor + "/kelembaban_1", "0");
-  Firebase.setString(firebaseData, path_sensor + "/kelembaban_2", "0");
-  Firebase.setString(firebaseData, path_sensor + "/kelembaban_3", "0");
-  Firebase.setString(firebaseData, path_sensor + "/kelembaban_4", "0");
-  Firebase.setString(firebaseData, path_sensor + "/curah_hujan", "0");
+  Firebase.setString(firebaseData, path_sensor + F("/kelembaban_1"), "0");
+  Firebase.setString(firebaseData, path_sensor + F("/kelembaban_2"), "0");
+  Firebase.setString(firebaseData, path_sensor + F("/kelembaban_3"), "0");
+  Firebase.setString(firebaseData, path_sensor + F("/kelembaban_4"), "0");
+  Firebase.setString(firebaseData, path_sensor + F("/curah_hujan"), "0");
   delay(5);
 }
